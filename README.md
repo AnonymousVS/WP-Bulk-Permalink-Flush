@@ -42,11 +42,7 @@ bash <(curl -sL https://raw.githubusercontent.com/AnonymousVS/WP-Bulk-Permalink-
 
 ---
 
-### รัน Bulk
 
-```bash
-bash /usr/local/sbin/wp-bulk-permalink-flush.sh
-```
 
 เลือกโหมด:
 
