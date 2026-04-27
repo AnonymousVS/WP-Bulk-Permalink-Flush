@@ -7,13 +7,7 @@ Bulk flush WordPress permalinks ทุกเว็บไซต์บน cPanel s
 
 ---
 
-## รันเลย (ไม่ต้องโหลดลงเครื่อง)
-
-**ทดสอบ 1 domain:**
-```bash
-bash <(curl -sL https://raw.githubusercontent.com/AnonymousVS/WP-Bulk-Permalink-Flush/main/wp-permalink-flush-test.sh) apple999.co
-```
-
+## รันเลย
 **รัน Bulk (ทั้ง server / เลือก cPanel):**
 ```bash
 bash <(curl -sL https://raw.githubusercontent.com/AnonymousVS/WP-Bulk-Permalink-Flush/main/wp-bulk-permalink-flush.sh)
