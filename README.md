@@ -20,7 +20,6 @@ bash <(curl -sL https://raw.githubusercontent.com/AnonymousVS/WP-Bulk-Permalink-
 | ไฟล์ | หน้าที่ |
 |---|---|
 | `wp-bulk-permalink-flush.sh` | รัน bulk flush ทั้ง server หรือเลือก cPanel |
-| `wp-permalink-flush-test.sh` | ทดสอบ manual ทีละ 1 domain |
 
 ---
 
@@ -34,24 +33,6 @@ bash <(curl -sL https://raw.githubusercontent.com/AnonymousVS/WP-Bulk-Permalink-
 
 ---
 
-## ติดตั้ง
-
-```bash
-cp wp-bulk-permalink-flush.sh /usr/local/sbin/
-cp wp-permalink-flush-test.sh /usr/local/sbin/
-chmod +x /usr/local/sbin/wp-bulk-permalink-flush.sh
-chmod +x /usr/local/sbin/wp-permalink-flush-test.sh
-```
-
----
-
-## วิธีใช้
-
-### ทดสอบก่อน — 1 domain
-
-```bash
-bash /usr/local/sbin/wp-permalink-flush-test.sh apple999.co
-```
 
 ผลลัพธ์แสดง PASS/FAIL พร้อมตรวจ 3 เงื่อนไข:
 
