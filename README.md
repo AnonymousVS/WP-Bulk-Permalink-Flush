@@ -12,6 +12,19 @@ Bulk flush WordPress permalinks ทุกเว็บไซต์บน cPanel s
 ```bash
 bash <(curl -sL https://raw.githubusercontent.com/AnonymousVS/WP-Bulk-Permalink-Flush/main/wp-bulk-permalink-flush.sh)
 ```
+---
+
+เลือกโหมด:
+
+```
+1. รัน Flush Permalink ทุกเว็บไซต์ใน server นี้ทั้งหมด
+2. เลือกรันเฉพาะบาง cPanel ในเซิร์ฟเวอร์นี้
+```
+
+**Mode 1** — แสดง list cPanel ทั้งหมด → ยืนยัน y/N → รัน
+
+**Mode 2** — แสดง list พร้อมหมายเลข → เลือก multiple ได้ (space หรือ comma) → ยืนยัน y/N → รัน
+
 
 ---
 
@@ -41,22 +54,6 @@ bash <(curl -sL https://raw.githubusercontent.com/AnonymousVS/WP-Bulk-Permalink-
 - `.htaccess` มี `RewriteEngine On`
 
 ---
-
-
-
-เลือกโหมด:
-
-```
-1. รัน Flush Permalink ทุกเว็บไซต์ใน server นี้ทั้งหมด
-2. เลือกรันเฉพาะบาง cPanel ในเซิร์ฟเวอร์นี้
-```
-
-**Mode 1** — แสดง list cPanel ทั้งหมด → ยืนยัน y/N → รัน
-
-**Mode 2** — แสดง list พร้อมหมายเลข → เลือก multiple ได้ (space หรือ comma) → ยืนยัน y/N → รัน
-
----
-
 ## โครงสร้าง path ที่รองรับ
 
 ```
